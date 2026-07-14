@@ -105,7 +105,7 @@
 <style>
 	.about-container {
 		width: 100%;
-		height: auto;
+		height: 100%;
 		padding: 2rem 1.5rem;
 		overflow-y: hidden;
 		display: flex;
@@ -118,7 +118,9 @@
 	.about-layout {
 		display: flex;
 		gap: 3rem;
-		align-items: flex-start;
+		align-items: stretch;
+		width: 100%;
+		max-width: 72rem;
 	}
 
 	.profile-section {
@@ -242,13 +244,15 @@
 	.status-busy::before { background: #ff4d4d; box-shadow: 0 0 8px #ff4d4d; }
 
 	.about-text {
-		flex-grow: 1;
+		flex: 1;
+		min-height: 0;
 		font-size: 0.95rem;
 		line-height: 1.65;
 		color: #f5f5f5;
 		display: flex;
 		flex-direction: column;
-		gap: 1.5rem;
+		justify-content: space-between;
+		gap: 0;
 		max-width: 60rem;
 	}
 
@@ -275,6 +279,9 @@
 		}
 
 		.about-text {
+			width: 100%;
+			justify-content: flex-start;
+			gap: 1.5rem;
 			text-align: center;
 		}
 		

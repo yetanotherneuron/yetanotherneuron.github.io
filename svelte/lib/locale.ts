@@ -64,10 +64,82 @@ export const locale = {
 				viewProject: 'VIEW PROJECT',
 				items: [
 					{
-						title: 'Snake Game',
+						title: 'Pulse List',
 						description:
-							"It's just the classic Snake game that we all know and have played.",
-						url: 'https://github.com/yetanotherneuron/snake-game'
+							'Windows process snapshot toolkit in Rust — list, filter, sort, and export via Win32 APIs. TUI + CLI.',
+						url: 'https://github.com/yetanotherneuron/pulse-list'
+					},
+					{
+						title: 'Another Shell',
+						description:
+							'Educational Windows command shell (ash) in C — process spawn, pipes, redirection, and builtins.',
+						url: 'https://github.com/yetanotherneuron/another-shell'
+					},
+					{
+						title: 'Chocolate Wall',
+						description:
+							'User-mode Windows firewall CLI and service talking to WFP — allow/block by program, IP, or port. Learning project; unfinished.',
+						url: 'https://github.com/yetanotherneuron/chocolate-wall'
+					},
+					{
+						title: 'Japanese Gossip',
+						description:
+							'Wrath of the Lich King localization overlay for Japanese quest text, tooltips, buffs, and related UI. Work in progress.',
+						url: 'https://github.com/yetanotherneuron/japanese-gossip'
+					},
+					{
+						title: 'Countability',
+						description:
+							'Lightweight small-business ledger desktop app (C++ / Dear ImGui / SQLite) — income, expenses, reports, CSV export.',
+						url: 'https://github.com/yetanotherneuron/countability'
+					},
+					{
+						title: 'Tertube',
+						description:
+							'Terminal YouTube search and browse client (Python / Textual). Search videos and channels, open in browser.',
+						url: 'https://github.com/yetanotherneuron/tertube'
+					},
+					{
+						title: 'Find Files',
+						description:
+							'Anonymous short-lived file sharing: upload up to 2 GB, share a link, auto-delete after 7 days. ASP.NET Core.',
+						url: 'https://github.com/yetanotherneuron/find-files'
+					},
+					{
+						title: 'Machine Text',
+						description:
+							'Simple static webpage for encoding and decoding text into binary and related machine formats. Offline-friendly.',
+						url: 'https://github.com/yetanotherneuron/machine-text'
+					},
+					{
+						title: 'Friends Of Friends',
+						description:
+							'WotLK addon that syncs friends and ignore lists across alts on the same realm and faction, with Sync or Keep prompts.',
+						url: 'https://github.com/yetanotherneuron/friends-of-friends'
+					},
+					{
+						title: 'iNeedPeace',
+						description:
+							'WotLK whisper-filter addon with allow/deny/ignore lists and configurable auto-replies. Derived from Give Me Some Peace.',
+						url: 'https://github.com/yetanotherneuron/i-need-peace'
+					},
+					{
+						title: 'ASCII Text',
+						description:
+							'Static FIGlet-based ASCII art generator in the browser. Type text, choose a font, copy the result.',
+						url: 'https://github.com/yetanotherneuron/ascii-text'
+					},
+					{
+						title: 'Another Chatty',
+						description:
+							'Local Java Swing chat app over TCP — start a server, open clients, talk on localhost or LAN.',
+						url: 'https://github.com/yetanotherneuron/another-chatty'
+					},
+					{
+						title: 'Another Bot',
+						description:
+							'TypeScript Discord multi-bot framework: one codebase, many JSON configs, modular features, SQLite per bot.',
+						url: 'https://github.com/yetanotherneuron/another-bot'
 					}
 				],
 				closeModalAria: 'Close project modal',
@@ -135,9 +207,82 @@ export const locale = {
 				viewProject: 'プロジェクトを見る',
 				items: [
 					{
-						title: 'スネークゲーム',
-						description: '誰もが知っていて遊んだことのある、あのクラシックなスネークゲームです。',
-						url: 'https://github.com/yetanotherneuron/snake-game'
+						title: 'Pulse List',
+						description:
+							'Rust製のWindowsプロセス一覧ツール。Win32 APIで一覧・フィルタ・ソート・エクスポート。TUIとCLI対応。',
+						url: 'https://github.com/yetanotherneuron/pulse-list'
+					},
+					{
+						title: 'Another Shell',
+						description:
+							'C言語で書いた教材向けWindowsシェル（ash）。プロセス起動、パイプ、リダイレクト、組み込みコマンド。',
+						url: 'https://github.com/yetanotherneuron/another-shell'
+					},
+					{
+						title: 'Chocolate Wall',
+						description:
+							'WFPを使うユーザーモードWindowsファイアウォールCLI／サービス。学習用で未完成のプロジェクト。',
+						url: 'https://github.com/yetanotherneuron/chocolate-wall'
+					},
+					{
+						title: 'Japanese Gossip',
+						description:
+							'リッチキングの怒りの日本語オーバーレイ。クエスト、ツールチップ、バフなどを表示。作業中。',
+						url: 'https://github.com/yetanotherneuron/japanese-gossip'
+					},
+					{
+						title: 'Countability',
+						description:
+							'C++ / Dear ImGui / SQLiteの軽量帳簿アプリ。収支、レポート、CSV出力。ポートフォリオ向けデモ。',
+						url: 'https://github.com/yetanotherneuron/countability'
+					},
+					{
+						title: 'Tertube',
+						description:
+							'Python / Textualのターミナル向けYouTube検索・閲覧クライアント。動画とチャンネルを検索してブラウザで開く。',
+						url: 'https://github.com/yetanotherneuron/tertube'
+					},
+					{
+						title: 'Find Files',
+						description:
+							'匿名の短命ファイル共有。最大2GB、リンク共有、7日後に自動削除。ASP.NET Core製。',
+						url: 'https://github.com/yetanotherneuron/find-files'
+					},
+					{
+						title: 'Machine Text',
+						description:
+							'テキストをバイナリなどの機械向け形式へ変換する静的Webページ。オフラインでも使える。',
+						url: 'https://github.com/yetanotherneuron/machine-text'
+					},
+					{
+						title: 'Friends Of Friends',
+						description:
+							'同一レルム／陣営のアルト間でフレンド・無視リストを同期するWotLKアドオン。SyncかKeepを選択。',
+						url: 'https://github.com/yetanotherneuron/friends-of-friends'
+					},
+					{
+						title: 'iNeedPeace',
+						description:
+							'ささやきフィルター用WotLKアドオン。許可／拒否／無視リストと自動返信。Give Me Some Peace派生。',
+						url: 'https://github.com/yetanotherneuron/i-need-peace'
+					},
+					{
+						title: 'ASCII Text',
+						description:
+							'ブラウザで動くFIGletベースのASCIIアート生成。テキスト入力、フォント選択、コピー対応。',
+						url: 'https://github.com/yetanotherneuron/ascii-text'
+					},
+					{
+						title: 'Another Chatty',
+						description:
+							'Java SwingのローカルTCPチャット。サーバーを立ててクライアントで会話（localhost / LAN）。',
+						url: 'https://github.com/yetanotherneuron/another-chatty'
+					},
+					{
+						title: 'Another Bot',
+						description:
+							'TypeScriptのDiscordマルチボット枠組み。1つのコードベース、複数JSON設定、ボットごとのSQLite。',
+						url: 'https://github.com/yetanotherneuron/another-bot'
 					}
 				],
 				closeModalAria: 'プロジェクトのモーダルを閉じる',
