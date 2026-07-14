@@ -1,0 +1,26 @@
+{
+	"name": "cyberweb",
+	"private": true,
+	"version": "0.0.1",
+	"author": "yetanotherneuron",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^7.0.0",
+		"@types/node": "^25.7.0",
+		"prettier": "^3.8.3",
+		"prettier-plugin-svelte": "^3.5.2",
+		"svelte": "^5.55.2",
+		"svelte-check": "^4.4.6",
+		"typescript": "^6.0.2",
+		"vite": "^8.0.7"
+	}
+}

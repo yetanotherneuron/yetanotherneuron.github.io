@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": false,
+		"moduleResolution": "bundler"
+	},
+	"include": [
+		"svelte/**/*.js",
+		"svelte/**/*.ts",
+		"svelte/**/*.d.ts",
+		"svelte/**/*.svelte",
+		"vite.config.js"
+	]
+}
